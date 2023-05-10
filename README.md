@@ -1,4 +1,4 @@
-# Implementation-of-Erosion-and-Dilation
+# EX-10--Implementation-of-Erosion-and-Dilation
 ## Aim
 To implement Erosion and Dilation using Python and OpenCV.
 ## Software Required
@@ -28,8 +28,8 @@ Plot the images using plt.imshow().
  
 ## Program:
 ```Python
-Developed By: Pranave B
-Register  No: 212221240040
+Developed By: Kersoan P
+Register  No: 212221230050
 ```
 
 ``` Python
@@ -44,7 +44,7 @@ from matplotlib import pyplot as plt
 # Create the text using cv2.putText
 text_image = np.zeros((100,250),dtype = 'uint8')
 font = cv2.FONT_HERSHEY_COMPLEX_SMALL
-cv2.putText(text_image,"Pranave",(5,70),font,2,(255),2,cv2.LINE_AA) 
+cv2.putText(text_image,"Kersoan",(5,70),font,2,(255),2,cv2.LINE_AA) 
 plt.title("Original Image")
 plt.imshow(text_image,'bone')
 plt.axis('off')
@@ -76,15 +76,15 @@ plt.axis('off')
 
 ### Display the input Image
 
-![](i1.png)
+![](output1.png)
 
 ### Display the Eroded Image
 
-![](i2.png)
+![](output2.png)
 
 ### Display the Dilated Image
 
-![](i3.png)
+![](output3.png)
 
 ## Result
 Thus the generated text image is eroded and dilated using python and OpenCV.
